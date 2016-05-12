@@ -1,0 +1,22 @@
+{
+    "name": "fgh151/yii2-tarantool",
+    "description": "Tarantool yii2 module",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"," db"," tarantool"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fedor B Gorsky",
+            "email": "fedor@support-pc.org"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "tarantool/client": "^0.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "fgh151\\tarantool\\": "src/"
+        }
+    }
+}
