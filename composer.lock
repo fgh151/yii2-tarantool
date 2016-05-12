@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "932861092bcf87f219ec562c47cfc176",
-    "content-hash": "3477cc5e4fcfd0098bb68db91e4abaef",
+    "hash": "70a23f2e0c58d56bcd8cf1673274f418",
+    "content-hash": "7db7f26c671f24b1c3eae3d77a0ca101",
     "packages": [
         {
             "name": "bower-asset/jquery",
@@ -249,6 +249,48 @@
                 "html"
             ],
             "time": "2015-08-05 01:03:42"
+        },
+        {
+            "name": "rybakit/msgpack",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rybakit/msgpack.php.git",
+                "reference": "7ae17f9936ccc13285feaab67ad13c6cb2d516d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rybakit/msgpack.php/zipball/7ae17f9936ccc13285feaab67ad13c6cb2d516d8",
+                "reference": "7ae17f9936ccc13285feaab67ad13c6cb2d516d8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MessagePack\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eugene Leonovich",
+                    "email": "gen.work@gmail.com"
+                }
+            ],
+            "description": "A pure PHP implementation of the MessagePack serialization format.",
+            "keywords": [
+                "messagepack",
+                "msgpack",
+                "pure",
+                "streaming"
+            ],
+            "time": "2015-12-22 09:46:41"
         },
         {
             "name": "tarantool/client",

@@ -12,7 +12,8 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "tarantool/client": "^0.1.0"
+        "tarantool/client": "^0.1.0",
+        "rybakit/msgpack": "^0.1.0"
     },
     "autoload": {
         "psr-4": {
